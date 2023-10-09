@@ -1,0 +1,639 @@
+/* smartphones*/
+@media screen and (min-width: 280px) {
+    .form {
+        --width-of-input: 130px;
+      }
+      .input::placeholder {
+        font-size: 10px;
+      }
+      .content-pr-txt-btn h2{
+        margin-bottom: 10px;
+    }
+    .btn{
+        font-size: 13px;
+        border-radius: 12px;
+        width: 100px;
+        height: 26px;
+    
+    }
+    header {
+        background-color: transparent;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+    .content-pr h2 {
+        font-size: 20px;
+    }
+    .texto-cseja{
+        font-size: 15px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .valor-plano{
+    font-size: 20px;
+    color: #FAEAB1;
+}
+
+.txt-infos{
+    color: #FAEAB1;
+    font-size: 16px;
+}
+
+.txt-suporte{
+    font-size: 15px;
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    top: 35%;
+    left: 0;
+    background: transparent;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin: 10px 0;
+    font-size: 20px;
+  }
+
+  #img-zenitsu{
+    max-height: 170px;
+  }
+}
+
+@media screen and (min-width: 320px) {
+    .form {
+        --width-of-input: 145px;
+      }
+      .input::placeholder {
+        font-size: 14px;
+      }
+      .btn{
+        font-size: 15px;
+        border-radius: 13px;
+        width: 135px;
+        height: 28px;
+    
+    }
+
+    .content-pr h2 {
+        font-size: 22px;
+    }
+
+    .texto-cseja{
+        font-size: 17px;
+    }
+    .valor-plano{
+        font-size: 20px;
+        color: #FAEAB1;
+    }
+    
+    .txt-infos{
+        color: #FAEAB1;
+        font-size: 16px;
+    }
+    .txt-suporte{
+        font-size: 17px;
+    }
+
+    .icon {
+        font-size: 18px; /* Tamanho do ícone */
+        color: #42290a; /* Cor do ícone (vermelho) */
+        
+      }
+    
+    
+      footer p{
+        font-size: 12px;
+      }
+      #img-zenitsu{
+        max-height: 189px;
+      }
+    
+}
+
+@media screen and (min-width: 400px) and (max-width: 479px) {
+  
+  .form {
+        --width-of-input: 180px;
+      }
+      .input::placeholder {
+        font-size: 16px;
+      }
+
+      .content-pr h2 {
+        font-size: 24px;
+    }
+    .content-pr-txt-btn h2{
+        margin-bottom: 20px;
+    }
+    .btn{
+        font-size: 16px;
+        border-radius: 14px;
+        width: 145px;
+        height: 30px;
+    
+    }
+    .texto-cseja{
+        font-size: 19px;
+    }
+
+    .painel{
+        width: 225px;
+        height: 302px;
+        }
+
+        .painel-melhor{
+            width: 225px;
+            height: 302px;
+            }
+    .retang-melhor{
+        width: 219px;
+        height: 45px;
+    }
+    .painel-tipo-sup{
+        width: 60px;
+        height: 60px;
+        font-size: 12px;
+    }
+    .painel-tipo{
+        width: 60px;
+        height: 60px;
+        font-size: 26px;
+    }
+    .txt-suporte{
+        font-size: 18px;
+    }
+    .icon {
+        font-size: 19px; /* Tamanho do ícone */
+        color: #42290a; /* Cor do ícone (vermelho) */
+        
+      }
+    
+    
+      footer p{
+        font-size: 13px;
+      }
+
+      #img-zenitsu{
+        max-height: 200px;
+      }
+
+      .retang-cadastro{
+        border: solid 2px white;
+        border-radius: 15px;
+        height: 410px;
+        width: 260px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    
+      .retang2-cadastro{
+        height: 367px;
+        width: 260px;
+        background-color: #ffd968;
+        border-radius: 15px;
+        position: relative;
+        top: 48%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+
+      .retang-google-cadastro{
+        height: 25.18px;
+        width: 80%;
+        background-color: white;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        position: absolute;
+        top: 88%;
+       left: 10%;
+       align-items: center;
+      }
+
+      .retang-login{
+        border: solid 2px white;
+        border-radius: 15px;
+        height: 410px;
+        width: 260px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    
+      .retang2-login{
+        height: 367px;
+        width: 260px;
+        background-color: #ffd968;
+        border-radius: 15px;
+        position: relative;
+        top: 48%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+
+      .retang-google{
+        height: 25.18px;
+        width: 80%;
+        background-color: white;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        position: absolute;
+        top: 88%;
+       left: 10%;
+       align-items: center;
+      }
+
+      .poster img{
+        max-width: 230px;
+      }
+    
+}
+
+@media screen and (min-width: 480px) {
+    .form {
+        --width-of-input: 200px;
+      }
+      .input::placeholder {
+        font-size: 17px;
+      }
+
+      .content-pr h2 {
+        font-size: 25px;
+    }
+
+    .texto-cseja{
+        font-size: 20px;
+    }
+    .txt-suporte{
+        font-size: 19px;
+    }
+    .icon {
+        font-size: 20px; /* Tamanho do ícone */
+        color: #42290a; /* Cor do ícone (vermelho) */
+        
+      }
+    
+    
+      footer p{
+        font-size: 14px;
+      }
+      #img-zenitsu{
+        max-height: 235px;
+      }
+
+      .retang-cadastro{
+        border: solid 2px white;
+        border-radius: 15px;
+        height: 410px;
+        width: 260px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    
+      .retang2-cadastro{
+        height: 367px;
+        width: 260px;
+        background-color: #ffd968;
+        border-radius: 15px;
+        position: relative;
+        top: 48%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+
+      .retang-google-cadastro{
+        height: 25.18px;
+        width: 80%;
+        background-color: white;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        position: absolute;
+        top: 88%;
+       left: 10%;
+       align-items: center;
+      }
+
+      .retang-login{
+        border: solid 2px white;
+        border-radius: 15px;
+        height: 410px;
+        width: 260px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    
+      .retang2-login{
+        height: 367px;
+        width: 260px;
+        background-color: #ffd968;
+        border-radius: 15px;
+        position: relative;
+        top: 48%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+
+      .retang-google{
+        height: 25.18px;
+        width: 80%;
+        background-color: white;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        position: absolute;
+        top: 88%;
+       left: 10%;
+       align-items: center;
+      }
+      }
+
+
+/*tablets*/
+@media screen and (min-width:768px) {
+    .form {
+        --width-of-input: 220px;
+        height: 30px;
+      }
+      .content-pr{
+        background-image: url("../imgs/background.png");
+    }
+    .content-pr2{
+        height: 80vh;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .paineis{
+        display: flex;
+        flex-direction: row;
+    }
+    .icon {
+        font-size: 22px; /* Tamanho do ícone */
+        color: #42290a; /* Cor do ícone (vermelho) */
+        
+      }
+    
+    
+      footer p{
+        font-size: 15px;
+      }
+      #img-zenitsu{
+        max-height: 246px;
+      }
+
+      .retang-cadastro{
+        border: solid 2px white;
+        border-radius: 15px;
+        height: 410px;
+        width: 380px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    
+      .retang2-cadastro{
+        height: 367px;
+        width: 380px;
+        background-color: #ffd968;
+        border-radius: 15px;
+        position: relative;
+        top: 48%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+
+      .retang-google-cadastro{
+        height: 25.18px;
+        width: 80%;
+        background-color: white;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        position: absolute;
+        top: 88%;
+       left: 10%;
+       align-items: center;
+      }
+
+      .retang-login{
+        border: solid 2px white;
+        border-radius: 15px;
+        height: 410px;
+        width: 380px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    
+      .retang2-login{
+        height: 367px;
+        width: 380px;
+        background-color: #ffd968;
+        border-radius: 15px;
+        position: relative;
+        top: 48%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+
+      .retang-google{
+        height: 25.18px;
+        width: 80%;
+        background-color: white;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        position: absolute;
+        top: 88%;
+       left: 10%;
+       align-items: center;
+      }
+
+      .poster img{
+        width: auto;
+        max-width: 220px;
+      }
+
+      .poster{
+      width: 250px;
+      }
+
+      .poster-sec1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+
+      
+
+}
+
+/*tablets e desktops*/
+@media screen and (min-width:960px) {
+    .burger{
+        display: none;
+       }
+    
+       header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       }
+       .menu {
+        display: block !important;
+        top: 0;
+        left: 0;
+        position: relative;
+        background: none;
+        padding: 0;
+        text-align: right;
+        display: flex;
+        width: auto;
+        
+      }
+      .menu ul{
+        display: flex;
+        flex-direction: row;        
+      }
+      .menu ul li{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 16px;
+      }
+      
+    .logo{
+        font-size: 25px;
+    }
+    #img-zenitsu{
+      max-height: 300px;
+    }
+    .form {
+      --width-of-input: 180px;
+      height: 30px;
+    }
+
+    .retang-cadastro{
+      border: solid 2px white;
+      border-radius: 15px;
+      height: 410px;
+      width: 380px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  
+    .retang2-cadastro{
+      height: 367px;
+      width: 380px;
+      background-color: #ffd968;
+      border-radius: 15px;
+      position: relative;
+      top: 48%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
+    .retang-google-cadastro{
+      height: 25.18px;
+      width: 80%;
+      background-color: white;
+      border-radius: 25px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      position: absolute;
+      top: 88%;
+     left: 10%;
+     align-items: center;
+    }
+
+    .retang-login{
+      border: solid 2px white;
+      border-radius: 15px;
+      height: 410px;
+      width: 380px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  
+    .retang2-login{
+      height: 367px;
+      width: 380px;
+      background-color: #ffd968;
+      border-radius: 15px;
+      position: relative;
+      top: 48%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
+    .retang-google{
+      height: 25.18px;
+      width: 80%;
+      background-color: white;
+      border-radius: 25px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      position: absolute;
+      top: 88%;
+     left: 10%;
+     align-items: center;
+    }
+
+}
+
+@media screen and (min-width:1200px) {
+  .menu ul li{
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 20px;
+  }
+
+  .form {
+    --width-of-input: 235px;
+  }
+
+}
